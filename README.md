@@ -11,20 +11,7 @@ mkdir build
 
 Configuration file at `build/satis.json`
 
-e.g.
-
-```json
-{
-    "name": "mylord/packagist",
-    "homepage": "http://packagist.example.com",
-    "repositories": [
-        { "type": "composer, "url": "https://packagist.org" }
-    ]
-    "require: {
-        "this/package": "version"
-    }
-}
-```
+See [example](./EXAMPLE-satis.json.md)
 
 ## Run
 
