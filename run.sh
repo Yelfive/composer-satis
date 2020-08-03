@@ -28,3 +28,7 @@ function run() {
 _FILES="satis.json output"
 
 run $1 $_FILES ${*:2}
+
+if [ $1 = 'build' ];then
+    (cd ${_ROOT}/build/output && . ${_ROOT}/install-composer.sh)
+fi

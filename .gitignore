@@ -2,4 +2,5 @@
 !.gitignore
 !README.md
 !run.sh
+!install-composer.sh
 !EXAMPLE*.md
